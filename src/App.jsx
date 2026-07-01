@@ -1,11 +1,10 @@
 import "./App.css";
+import Home from "./Components/Home";
 
 function App() {
   return (
     <>
-      <section id="center">
-        <h1>Hello react!</h1>
-      </section>
+      <Home />
     </>
   );
 }
