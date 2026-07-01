@@ -97,7 +97,6 @@ h2 {
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1;
   /* gap: 45px; */
   border: 1px solid black;
 }
