@@ -27,7 +27,7 @@ function Contact() {
   }
 
   return (
-    <section className="container">
+    <>
       <Nav />
       <main>
         <section className="contact-form-section">
@@ -107,7 +107,7 @@ function Contact() {
           </form>
         </section>
       </main>
-    </section>
+    </>
   );
 }
 

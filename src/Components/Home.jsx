@@ -5,14 +5,14 @@ import Projects from "./Projects";
 
 function Home() {
   return (
-    <section className="container">
+    <>
       <Nav />
       <main>
         <Hero />
         <Projects />
         <About />
       </main>
-    </section>
+    </>
   );
 }
 
