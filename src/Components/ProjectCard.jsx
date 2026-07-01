@@ -1,6 +1,6 @@
 function ProjectCard(project) {
   return (
-    <div id="project1" className="project">
+    <div id={project.project.key} className="project">
       <div className="project-image-container">
         <img className="project-image" src={project.project.imageSrc} alt="" />
       </div>
